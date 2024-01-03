@@ -1,0 +1,30 @@
+.gia {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #FFFFFF;
+}
+
+.menuduoi {
+    line-height: 38px;
+    font-family: tahoma;
+    height: 38px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menuduoi a {
+    text-align: center;
+    float: right;
+    width: 120px;
+    color: #000099;
+    text-decoration: none;
+}
+
+.menuduoi a:hover {
+    color: #FF0000;
+    text-decoration: none
+}

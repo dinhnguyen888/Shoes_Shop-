@@ -1,0 +1,263 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/add-r.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/close-r.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/import.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/log-off.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/pen.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/trash.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/search.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/software-upload.css');
+
+body {
+    background-color: #fff;
+}
+
+.over {
+    background-color: #f2f2f2;
+    margin: auto;
+    width: 70%;
+    padding-top: 50px;
+    border-radius: 20px;
+    box-shadow: 31px 31px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.xinchao {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+    margin: 11px;
+
+}
+
+.xinchao button {
+    background-color: #fff;
+    border: #fff;
+    border-radius: 8px;
+    width: 140px;
+    color: black;
+    font-size: large;
+    text-align: center;
+
+}
+
+
+
+.xinchao h1 {
+    margin: auto 18px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.sanpham {
+    position: relative;
+    margin: auto auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 22px;
+    box-shadow: 31px 31px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box-san-pham {
+    display: grid;
+    grid-template-columns: auto 25% auto auto;
+}
+
+.box-san-pham>img {
+    border-radius: 22px;
+    width: 70px;
+    height: 70px;
+
+}
+
+.box-san-pham>p {
+    float: left;
+    white-space: pre-line;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search {
+    position: absolute;
+    left: 19%
+}
+
+.search input {
+    height: 38px;
+    border: 0.5px solid rgb(80, 78, 78);
+    border-radius: 4px;
+
+}
+
+.search button {
+    height: 40.5px;
+    margin-left: 5px;
+    background-color: deepskyblue;
+    color: #fff;
+    border: deepskyblue;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.add {
+    height: 40.5px;
+    background-color: rgb(144, 234, 10);
+    border: rgb(144, 234, 10);
+    border-radius: 4px;
+    width: 110px;
+    position: relative;
+    text-align: center;
+    line-height: 30px;
+    left: 83%;
+}
+
+.add>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tieude {
+    margin-left: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+
+    margin-bottom: 20px;
+
+    margin: auto;
+    text-align: center;
+}
+
+
+th {
+    border: 1px solid #ddd;
+
+    padding: 8px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #ddd;
+
+    padding: 8px;
+}
+
+tr {
+    height: 60px;
+}
+
+.mah {
+    font-weight: bold;
+}
+
+.gg-pen {
+    margin: auto auto;
+    color: blue;
+    height: 3px;
+    align-items: center;
+    line-height: 10px;
+}
+
+.gg-trash {
+    margin: auto auto;
+    color: red;
+    height: 15px;
+
+
+
+}
+
+.gg-search {
+    float: left;
+
+    margin-left: 9px;
+}
+
+.gg-software-upload {
+
+
+    float: left;
+    position: relative;
+    top: 9px;
+}
+
+.gg-add-r,
+.gg-close-r,
+.gg-import,
+.gg-log-off {
+    margin: auto auto;
+}
+
+td button {
+    height: 30px;
+    background-color: #f2f2f2;
+    border: #f2f2f2;
+
+}
+
+.xoabtn {
+    position: relative;
+    top: 2px;
+    margin-left: 6PX;
+}
+
+.sua {
+    display: flex;
+    height: 42px;
+}
+
+.suabtn2 {
+
+
+    background-color: #fff;
+    border: #fff;
+}
+
+.xoabtn2 {
+    position: relative;
+    top: 3px;
+    background-color: #fff;
+    border: #fff;
+    margin-left: 20px;
+}
+
+.ten {
+    width: 100%;
+    color: RED;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+.giatien {
+
+    color: RED;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.chucnang {
+    display: flex;
+}
